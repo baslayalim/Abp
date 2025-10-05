@@ -99,7 +99,7 @@ Birden fazla template ve veritabanı seçenekleri var
 Örnek Proje Kodu : abp new Acme.BookStore -t app
 
 Katmanlı mimariye bakmamız bizim için iyi olacaktır Abpyi daha derinlemesine inceleme fırsatımız olabilir
-
+  ````
 
 
 
@@ -146,10 +146,19 @@ acme.bookStore.books.book.create({
     }).then(function (result) {
         console.log('successfully created the book with id: ' + result.id);
     });
+  ````
 
 
 
 
+\## 🧱 3. Commit Frontend
 
+
+```bash
+
+Backend oluştuktan sonra mimariye uygun frontend yapısı oluşturuluyor, Abp kendi component ve kod yapısıyla daha kolay hale geliyor
+3. Commit'te örnek sayfa oluşturma ve kod yapısı mevcut
+
+````
 
 
