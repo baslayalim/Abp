@@ -156,9 +156,26 @@ acme.bookStore.books.book.create({
 
 ```bash
 
-Backend oluştuktan sonra mimariye uygun frontend yapısı oluşturuluyor, Abp kendi component ve kod yapısıyla daha kolay hale geliyor
-3. Commit'te örnek sayfa oluşturma ve kod yapısı mevcut
+Backend oluştuktan sonra mimariye uygun frontend yapısı oluşturuluyor
+Abp kendi component ve kod yapısıyla daha kolay hale geliyor
+
+2022 yılında oluşturduğum Backend ve Frontend de dahil olmak üzere
+inanılmaz efor harcanan ve yazılımlar için vazgeçilmez Grid yapısı
+Abp de 47 satırda çözümlenebiliyor
+
+Dapper, Select2, Mssql vs. kapsayan grid kodlarını inceleyebilirsiniz
+=> https://github.com/baslayalim/FullDataTable 
+
+3. Commit'te Abp örnek sayfa oluşturma ve kod yapısı mevcut
 
 ````
 
 
+\## 🧱 4. Test İşlemleri
+
+
+```bash
+
+Örnek test işlemleri 4. Committe mevcut
+
+````
