@@ -46,6 +46,7 @@ Komutları kullanabilmek için \*\*Volo\*\* firmasına ait \*\*ABP CLI\*\* arac�
 
 
 
+---
 
 \## 🧱 1. Commit Başlangıç
 
@@ -58,11 +59,7 @@ dotnet tool install -g Volo.Abp.Studio.Cli
 
 dotnet tool update -g Volo.Abp.Studio.Cli
 
-
-
-Cli Create -> dotnet tool install -g Volo.Abp.Studio.Cli
-
-Cli Update -> dotnet tool update -g Volo.Abp.Studio.Cli
+  ````
 
 
 Kurarken ben hata aldım çünkü .net9 güncel degildi
@@ -93,20 +90,19 @@ Birden fazla template ve veritabanı seçenekleri var
 
 Örnek : Angular, Razor, Blazor vs. Database de ise Entity , Mongo
 
-(zaten entity framework içinde neredeyse tüm dbleri destekleyen bir yapı mevcut)
+(Entity framework içinde neredeyse tüm dbleri destekleyen bir yapı mevcut)
 
 
 Örnek Proje Kodu : abp new Acme.BookStore -t app
 
 Katmanlı mimariye bakmamız bizim için iyi olacaktır Abpyi daha derinlemesine inceleme fırsatımız olabilir
-  ````
 
 
+
+---
 
 \## 🧱 2. Commit Proje Detayları
 
-
-```bash
 
 Cli üzerinde proje başlangıç komutu çalıştırıldığında migration işlemlerini yapıyor, yapılmadığı durumlarda DbMigrator Çalıştırılarak Tablolar Oluşturuluyor iki Connection gördüm birincisi Uygulama projesinde ikincisi DbMigrator içerisinde istediğimiz Connection ile degiştirebiliyoruz
 
@@ -129,7 +125,7 @@ Entity oluşturulduğunda abp nin kendi tablolarının açılması silinme özel
 
 Abp servisleriyle sadece Entity oluşturduktan sonra javascript ile erişim sağlayıyoruz, swagger dan erişim sağlıyoruz tabloları oluşturuyoruz aslında tüm hazır sistemler Abp ye eklenmiş ve hepsi birbirine bağlanmış şekilde hizmet ediyor
 
-
+```bash
 örnek javascript list sorgusu
 
 acme.bookStore.books.book.getList({})
@@ -150,11 +146,11 @@ acme.bookStore.books.book.create({
 
 
 
+---
 
 \## 🧱 3. Commit Frontend
 
 
-```bash
 
 Backend oluştuktan sonra mimariye uygun frontend yapısı oluşturuluyor
 Abp kendi component ve kod yapısıyla daha kolay hale geliyor
@@ -168,14 +164,20 @@ Dapper, Select2, Mssql vs. kapsayan grid kodlarını inceleyebilirsiniz
 
 3. Commit'te Abp örnek sayfa oluşturma ve kod yapısı mevcut
 
-````
+ 
 
+---
 
-\## 🧱 4. Test İşlemleri
+\## 🧱 4. Commit Test İşlemleri
 
-
-```bash
 
 Örnek test işlemleri 4. Committe mevcut
 
-````
+
+---
+
+\## 🧱 5. Commit Abp Nuget Update İşlemleri
+
+
+Paketler Güncellendi
+ 
